@@ -1,0 +1,106 @@
+*{
+/*   border:solid 1px blue; */
+}
+
+.navbar{
+  text-align:center;
+}
+
+#main-nav {
+  color: black; /* 預設字體顏色 */
+  background-color: #fff; /* 預設背景色 */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#main-nav.scrolled {
+  background-color: #e0dede !important; /* 滾動後背景色 */
+  background-image: none !important; 
+}
+
+.container .name{
+  font-size:50px;
+  margin:70px;
+  text-align:center;
+}
+
+.card .card-img-top{
+  width:85%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img1{
+  width:100%;
+  height:auto;
+}
+
+h4{
+  text-align:center;
+}
+
+img.img-fluid.img1{
+  max-height:400px;
+  max-width:300px;
+}
+
+img.img-fluid.img2{
+  max-height:300px;
+  max-width:400px;
+}
+
+img.img-fluid.img3{
+  max-height:300px;
+  max-width:300px;
+}
+
+section{
+  padding-top:65px;
+}
+
+section#s1{
+  background-color:rgba(125, 200, 202, 0.2);
+}
+
+section#s2{
+  background-color:rgba(243, 210, 172, 0.2);
+}
+
+section#s3{
+  background-color:rgba(206, 203, 214, 0.3);
+  padding-bottom:250px;
+}
+
+.toTop-arrow {
+width: 2.5rem;
+height: 2.5rem;
+padding: 0;
+margin: 0;
+border: 0;
+border-radius: 33%;
+opacity: 0.6;
+background: #000;
+cursor: pointer;
+position:fixed;
+right: 1rem;
+bottom: 1rem;
+display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+width: 18px;
+height: 5px;
+border-radius: 3px;
+background: #fff;
+position: absolute;
+content: "";
+}
+.toTop-arrow::before {
+transform: rotate(-45deg) translate(0, -50%);
+left: 0.5rem;
+}
+.toTop-arrow::after {
+transform: rotate(45deg) translate(0, -50%);
+right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
